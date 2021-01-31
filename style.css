@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+html, body {
+  height: 100vh;
+}
+body {
+  background-color: #d8d8d8;
+} 
+.box {
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.box img {
+  width: 300px;
+  user-select: none;
+}
+.box h1 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-family: 'Frijole', cursive;
+  user-select: none;
+}
+.box a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+
